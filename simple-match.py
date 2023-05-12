@@ -1,13 +1,16 @@
 
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# On branch main
-# Your branch is up to date with 'origin/main'.
-#
-# Changes to be committed:
-#	modified:   python-01.py
-#
-# Untracked files:
-#	simple math.txt
-#
+# take user input for two numbers
+num1 = 34
+num2 = 99
+
+# perform arithmetic operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+
+# print the results
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
